@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>879433204081-9s0q20o2235kl7tck34va9s12b59gq8j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.879433204081-9s0q20o2235kl7tck34va9s12b59gq8j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChZEsjbUEvQo1fMwvqxaou70FDhC-hIeI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>879433204081</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tartanhacksmichaellim.userapp</string>
+	<key>PROJECT_ID</key>
+	<string>tartanhacks2020-userapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tartanhacks2020-userapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:879433204081:ios:fbc76d5871ced071a376d0</string>
+	<key>DATABASE_URL</key>
+	<string>https://tartanhacks2020-userapp.firebaseio.com</string>
+</dict>
+</plist>
