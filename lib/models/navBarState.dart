@@ -12,5 +12,15 @@ class ShowFlightInfo extends NavbarState {
 
 class ShowFAQ extends NavbarState {
   final String title = "FAQ";
+  final int itemIndex = 2;
+}
+
+class ShowProfile extends NavbarState {
+  final String title = "My Profile";
   final int itemIndex = 3;
+}
+
+class ShowSettings extends NavbarState {
+  final String title = "Settings";
+  final int itemIndex = 4;
 }

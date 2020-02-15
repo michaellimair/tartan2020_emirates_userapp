@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import '../models/navBarState.dart';
 
-enum NavbarItems { Lounge, FlightInfo, FAQ }
+enum NavbarItems { Lounge, FlightInfo, FAQ, Profile, Settings }
 
 class NavbarBloc extends Bloc<NavbarItems, NavbarState> {
   @override
@@ -15,6 +15,12 @@ class NavbarBloc extends Bloc<NavbarItems, NavbarState> {
         break;
       case NavbarItems.FAQ:
         yield ShowFAQ();
+        break;
+      case NavbarItems.Profile:
+        yield ShowProfile();
+        break;
+      case NavbarItems.Settings:
+        yield ShowSettings();
         break;
       default:
         yield ShowLounge();

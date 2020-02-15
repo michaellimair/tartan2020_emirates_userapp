@@ -1,5 +1,7 @@
 import 'package:emirates_experience_userapp/components/rootNavigator.dart';
 import 'package:emirates_experience_userapp/models/pushNotification.dart';
+import 'package:emirates_experience_userapp/screens/agents/agents.dart';
+import 'package:emirates_experience_userapp/screens/map/map.dart';
 import 'package:emirates_experience_userapp/theme/theme.dart';
 import 'package:flutter/material.dart';
 
@@ -21,10 +23,13 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Emirates Experience',
       theme: emiratesExperienceTheme(context),
       routes: {
         '/': (context) => RootNavigator(),
+        '/Agents': (context) => AgentsPage(),
+        '/Map': (context) => MapPage()
       },
     );
   }

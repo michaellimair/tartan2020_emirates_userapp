@@ -15,7 +15,7 @@ class EmiratesDrawer extends StatelessWidget {
         children: <Widget>[
           DrawerUserDisplay(),
           ListTile(
-            title: Text('Lounge Experience'),
+            title: Text('Skywards Experience'),
             leading: Icon(Icons.airline_seat_legroom_extra),
             onTap: () {
               Navigator.pop(context);
@@ -30,14 +30,30 @@ class EmiratesDrawer extends StatelessWidget {
               onTap(1);
             },
           ),
+          // ListTile(
+          //   title: Text('FAQ'),
+          //   leading: Icon(Icons.question_answer),
+          //   onTap: () {
+          //     Navigator.pop(context);
+          //     onTap(2);
+          //   },
+          // ),
           ListTile(
-            title: Text('FAQ'),
-            leading: Icon(Icons.question_answer),
+            title: Text('My Profile'),
+            leading: Icon(Icons.person_outline),
             onTap: () {
               Navigator.pop(context);
-              onTap(2);
+              onTap(3);
             },
           ),
+          // ListTile(
+          //   title: Text('Settings'),
+          //   leading: Icon(Icons.settings),
+          //   onTap: () {
+          //     Navigator.pop(context);
+          //     onTap(4);
+          //   },
+          // ),
         ],
       )
     );
