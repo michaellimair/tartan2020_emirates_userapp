@@ -129,6 +129,7 @@ class _RootNavigatorState extends State<RootNavigator> {
                     child: Text("OK"),
                     onPressed: () {
                       Navigator.pop(context);
+                      Navigator.of(context).pushNamed('/Chat');
                     },
                   ),
                   CupertinoDialogAction(

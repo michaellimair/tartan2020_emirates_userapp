@@ -1,6 +1,7 @@
 import 'package:emirates_experience_userapp/components/rootNavigator.dart';
 import 'package:emirates_experience_userapp/models/pushNotification.dart';
 import 'package:emirates_experience_userapp/screens/agents/agents.dart';
+import 'package:emirates_experience_userapp/screens/chat/chat.dart';
 import 'package:emirates_experience_userapp/screens/map/map.dart';
 import 'package:emirates_experience_userapp/theme/theme.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,8 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/': (context) => RootNavigator(),
         '/Agents': (context) => AgentsPage(),
-        '/Map': (context) => MapPage()
+        '/Map': (context) => MapPage(),
+        '/Chat': (context) => ChatPage()
       },
     );
   }
